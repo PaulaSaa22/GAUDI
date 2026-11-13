@@ -1,0 +1,16 @@
+GAUDIN · Página web (versión 21)
+================================
+Abrir index.html en el navegador, con la carpeta "media" al lado (video e imágenes).
+Para publicarla (GitHub Pages, Netlify o servidor de la universidad) se sube todo el contenido de esta carpeta junta.
+index.html está minificado; las imágenes y el video se cargan solo al llegar a cada parada.
+
+Estructura de cada parada (bloques con id "bk-…" dentro de #pbody; el orden de cada parada está en ORDEN, en el script):
+  Territorio: historia, cartas y croquis (4 imágenes), reflexión, video con pie, texto de Miralles y Radić, [fotos del levantamiento de Miralles y Radić]
+  Geometría:  historia, render, láminas (L04, L03, L05), maqueta, video aéreo, reflexión
+  Fe:         historia, render, láminas (L01, L02, L03), maqueta, reflexión, botón para subir la experiencia
+El lugar entre [corchetes] es invisible y está marcado en el código con el comentario «AQUÍ VAN: …».
+
+media/territorio/   video de la Corporación Gaudí de Triana (23,2 MB, original sin comprimir), su portada, cartas y croquis
+media/geometria/    render, maqueta y láminas L04, L03 y L05 de la columna (las láminas, tal como se entregaron)
+media/fe/           render, maqueta y láminas L01, L02 y L03 del manto (las láminas, tal como se entregaron)
+media/              video aéreo de la columna y su portada
